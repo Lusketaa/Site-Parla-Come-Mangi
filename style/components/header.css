@@ -1,0 +1,125 @@
+.header {
+    display: flex;
+    z-index: 10;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    padding: 0px 50px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    background-color: var(--color-white);
+}
+
+.header > .nav {
+    display: none;
+}
+
+.header > .nav > .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header > .logo-written {
+    font-family: 'Roboto';
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24.6px;
+    line-height: 29px;
+    background: linear-gradient(180deg, #D64545 0%, #F8D9B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header > .nav > .nav-list > .nav-item {
+    padding-right: 52px;
+}
+
+.header > .nav > .nav-list > .nav-item-nopadding {
+    padding: 0;
+    position: static;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.9702px;
+    line-height: 22px;
+    color: var(--color-black);
+}
+
+.header > .nav > .nav-list > .nav-item-nopadding:hover{
+    position: static;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.9702px;
+    line-height: 22px;
+    background: linear-gradient(180deg, #D64545 0%, #F8D9B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header > .nav > .nav-list > .nav-item > .nav-item-menu {
+    position: static;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.9702px;
+    line-height: 22px;
+    color: var(--color-black);
+}
+
+.header > .nav > .nav-list > .nav-item > .nav-item-menu:hover {
+    position: static;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.9702px;
+    line-height: 22px;
+    background: linear-gradient(180deg, #D64545 0%, #F8D9B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+} 
+
+a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: var(--color-black);
+}
+
+@media (min-width: 340px) {
+    .header > .logo-written {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 1024px){
+    .header > .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1280px){
+    .header {
+        padding: 0px 120px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+

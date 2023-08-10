@@ -1,0 +1,9 @@
+html{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 110px;
+}
+
+
