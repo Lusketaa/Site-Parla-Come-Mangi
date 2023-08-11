@@ -35,6 +35,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
+    text-align: center;
     font-size: 14.5px;
     line-height: 29px;
     color: var(--color-gray);
@@ -56,6 +57,9 @@
         flex-direction: row;
     }
     .main > .apresentation-section > .apresentation-text > .first-sub-title{
+        text-align: left;
+    }
+    .main > .apresentation-section > .apresentation-text > .first-paragraph{
         text-align: left;
     }
 }
