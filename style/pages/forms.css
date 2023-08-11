@@ -80,7 +80,7 @@ form textarea:focus {
     border-radius: 12px;
 }
 
-form a {
+form .button {
     text-align: center;
     width: 100%;
     background: var(--color-footer);
@@ -99,7 +99,7 @@ form a {
     transition: all 1s;
 }
 
-form a:hover{
+form .button:hover{
     background: var(--color-footer-light);
     border-radius: 16px;
 }
