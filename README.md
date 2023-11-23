@@ -26,5 +26,9 @@ Aqui estão as tecnologias que utilizei no projeto:
 
 * **Lucca Frietto**
 
-## Imagens e Vídeos
+## Imagens
+
+![site](https://github.com/Lusketaa/Site-Parla-Come-Mangi/blob/master/assets/site.JPG)
+
+
 
